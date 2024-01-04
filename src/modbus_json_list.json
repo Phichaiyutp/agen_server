@@ -1,0 +1,292 @@
+[
+  {
+    "station_name": "BCS-S01",
+    "timestamp": 1704340673.153006,
+    "gateway_info": [
+      {
+        "gateway_name": "PCA-ELFIN-P01",
+        "host_name": "172.16.97.7",
+        "port": 8899,
+        "status": true,
+        "device_info": [
+          {
+            "device_name": "PCA-BASCDAC01E1-P01",
+            "group_name": "Lighting",
+            "device_id": 6,
+            "status": true,
+            "value_info": [
+              {
+                "value_name": "voltage",
+                "value": 0.0,
+                "unit": "V"
+              },
+              {
+                "value_name": "power",
+                "value": 0.0,
+                "unit": "kW"
+              },
+              {
+                "value_name": "current",
+                "value": 0.0,
+                "unit": "A"
+              },
+              {
+                "value_name": "pf",
+                "value": 0.1,
+                "unit": "-"
+              },
+              {
+                "value_name": "level",
+                "value": 0.0,
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "device_name": "PCA-RK33002B-P01",
+            "group_name": "Environment",
+            "device_id": 5,
+            "status": true,
+            "value_info": [
+              {
+                "value_name": "pm1",
+                "value": 7.0,
+                "unit": "ug/m^3"
+              },
+              {
+                "value_name": "pm25",
+                "value": 12.0,
+                "unit": "ug/m^3"
+              },
+              {
+                "value_name": "pm10",
+                "value": 15.0,
+                "unit": "ug/m^3"
+              }
+            ]
+          },
+          {
+            "device_name": "PCA-RK33005CD-P01",
+            "group_name": "Environment",
+            "device_id": 4,
+            "status": true,
+            "value_info": [
+              {
+                "value_name": "temperature",
+                "value": 33.5,
+                "unit": "\u00b0C"
+              },
+              {
+                "value_name": "humidity",
+                "value": 45.9,
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "device_name": "PCA-PM-P01",
+            "group_name": "Energy",
+            "device_id": 1,
+            "status": false,
+            "value_info": [
+              {
+                "value_name": "energy",
+                "value": 120259092.896,
+                "unit": "kWh"
+              },
+              {
+                "value_name": "frequency",
+                "value": 50.0,
+                "unit": "Hz"
+              },
+              {
+                "value_name": "pf",
+                "value": 0.85,
+                "unit": "-"
+              },
+              {
+                "value_name": "power",
+                "value": 0.1,
+                "unit": "kW"
+              },
+              {
+                "value_name": "current",
+                "value": 0.507,
+                "unit": "A"
+              },
+              {
+                "value_name": "voltage",
+                "value": null,
+                "unit": "V"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_name": "BCS-P02",
+    "timestamp": 1704340673.153256,
+    "gateway_info": [
+      {
+        "gateway_name": "PCA-ELFIN-P03",
+        "host_name": "172.16.97.71",
+        "port": 8899,
+        "status": true,
+        "device_info": [
+          {
+            "device_name": "PCA-RK33002B-P03",
+            "group_name": "Environment",
+            "device_id": 40,
+            "status": false,
+            "value_info": [
+              {
+                "value_name": "pm1",
+                "value": null,
+                "unit": "ug/m^3"
+              },
+              {
+                "value_name": "pm25",
+                "value": null,
+                "unit": "ug/m^3"
+              },
+              {
+                "value_name": "pm10",
+                "value": null,
+                "unit": "ug/m^3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_name": "BCS-P03",
+    "timestamp": 1704340673.153337,
+    "gateway_info": [
+      {
+        "gateway_name": "PCA-ELFIN-P04",
+        "host_name": "172.16.97.103",
+        "port": 8899,
+        "status": true,
+        "device_info": [
+          {
+            "device_name": "PCA-PM-P04",
+            "group_name": "Energy",
+            "device_id": 42,
+            "status": true,
+            "value_info": [
+              {
+                "value_name": "energy",
+                "value": 111669165.089,
+                "unit": "kWh"
+              },
+              {
+                "value_name": "frequency",
+                "value": 50.0,
+                "unit": "Hz"
+              },
+              {
+                "value_name": "pf",
+                "value": 0.8,
+                "unit": "-"
+              },
+              {
+                "value_name": "power",
+                "value": 0.1,
+                "unit": "kW"
+              },
+              {
+                "value_name": "current",
+                "value": 0.544,
+                "unit": "A"
+              },
+              {
+                "value_name": "voltage",
+                "value": 231.97,
+                "unit": "V"
+              }
+            ]
+          },
+          {
+            "device_name": "PCA-RK33002B-P04",
+            "group_name": "Environment",
+            "device_id": 41,
+            "status": false,
+            "value_info": [
+              {
+                "value_name": "pm1",
+                "value": null,
+                "unit": "ug/m^3"
+              },
+              {
+                "value_name": "pm25",
+                "value": null,
+                "unit": "ug/m^3"
+              },
+              {
+                "value_name": "pm10",
+                "value": null,
+                "unit": "ug/m^3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "station_name": "BCS-P10",
+    "timestamp": 1704340673.153405,
+    "gateway_info": [
+      {
+        "gateway_name": "PCA-ELFIN-P02",
+        "host_name": "172.16.97.39",
+        "port": 8899,
+        "status": true,
+        "device_info": [
+          {
+            "device_name": "PCA-PM-P02",
+            "group_name": "Energy",
+            "device_id": 7,
+            "status": true,
+            "value_info": [
+              {
+                "value_name": "energy",
+                "value": 115964157.869,
+                "unit": "kWh"
+              },
+              {
+                "value_name": "frequency",
+                "value": 50.0,
+                "unit": "Hz"
+              },
+              {
+                "value_name": "pf",
+                "value": 0.87,
+                "unit": "-"
+              },
+              {
+                "value_name": "power",
+                "value": 0.09,
+                "unit": "kW"
+              },
+              {
+                "value_name": "current",
+                "value": 0.423,
+                "unit": "A"
+              },
+              {
+                "value_name": "voltage",
+                "value": 235.54,
+                "unit": "V"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

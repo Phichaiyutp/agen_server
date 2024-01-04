@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  agen_modbus:
+    container_name: agen_modbus
+    restart: unless-stopped
+    image: agen_modbus
+    working_dir: /code
+    volumes:
+      - ./src:/code
+    environment:
+      - MQTT_HOST=api.planetcloud.cloud
+      - MQTT_PORT=2883
+      - MQTT_USER=planet
+      - MQTT_PASSWORD=pca123
+      - MQTT_TOPIC=wbm_v1/all
+      - INTERVAL=60000
+    ports:
+      - 4321:4321
+    command: ["python", "./app.py"]
