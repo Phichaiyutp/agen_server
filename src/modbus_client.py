@@ -294,15 +294,25 @@ async def read_modbus():
     publish_mqtt(modbus_json_out)
     #logging.info(modbus_json_out)
 
-#async def write_modbus():
-    
+def write_modbus():
+    with open(f'{os.getcwd()}/mobus_command.json', 'r') as file:
+        data = json.load(file)
+        gateway_info = data[0]['gateway_info'][0]
+        device_info = gateway_info['device_info'][0]
+        value_info = device_info['value_info'][0]
+        value_name = value_info['value_name']
+        value = value_info['value']
+        print(f"value_name:{value_name} value:{value}")
+    #print(json.dumps(original_value_info, sort_keys=True, indent=4))
+        
+
 
 def service_read():
     asyncio.run(read_modbus())
 
-#def service_write():
-#    asyncio.run(write_modbus())
+def service_write():
+    write_modbus()
 
 
 if __name__ == '__main__':
-    service_read()
+    write_modbus()

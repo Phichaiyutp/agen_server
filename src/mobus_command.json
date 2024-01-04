@@ -1,0 +1,93 @@
+[
+    {
+        "station_name": "BCS-S01",
+        "gateway_info": [
+            {
+                "gateway_name": "PCA-ELFIN-P01",
+                "host_name": "172.16.97.7",
+                "port": 8899,
+                "timeout": 1000,
+                "device_info": [
+                    {
+                        "device_name": "PCA-BASCDAC01E1-P01",
+                        "group_name": "Lighting",
+                        "device_id": 6,
+                        "unit_id": 11,
+                        "value_check": [
+                            {
+                                "value_name": [
+                                    "voltage",
+                                    "power",
+                                    "current",
+                                    "pf",
+                                    "level"
+                                ],
+                                "fc": 3,
+                                "address": [
+                                    1,
+                                    2,
+                                    3,
+                                    4,
+                                    5
+                                ],
+                                "quantity": 5,
+                                "marge_address": true,
+                                "data_type": [
+                                    "UInt16/BE",
+                                    "UInt16/BE",
+                                    "UInt16/BE",
+                                    "UInt16/BE",
+                                    "UInt16/BE"
+                                ],
+                                "unit": [
+                                    "V",
+                                    "kW",
+                                    "A",
+                                    "-",
+                                    "%"
+                                ],
+                                "scaling": [
+                                    1,
+                                    1000,
+                                    1000,
+                                    1000,
+                                    1
+                                ],
+                                "scaling_direction": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ],
+                                "calibrate": [
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ],
+                        "value_info": [
+                            {
+                                "value_name": "On_Off",
+                                "fc": 6,
+                                "address": 1,
+                                "value":true,
+                                "description":"Type:bool true:On/false:Off"
+                            },
+                            {
+                                "value_name": "dimming",
+                                "fc": 6,
+                                "address": 4,
+                                "value":50,
+                                "description":"Type:uint 10%-100% Dimming"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

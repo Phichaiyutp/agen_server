@@ -1,7 +1,7 @@
 [
   {
     "station_name": "BCS-S01",
-    "timestamp": 1704340724.727599,
+    "timestamp": 1704347356.748599,
     "gateway_info": [
       {
         "gateway_name": "PCA-ELFIN-P01",
@@ -13,31 +13,31 @@
             "device_name": "PCA-BASCDAC01E1-P01",
             "group_name": "Lighting",
             "device_id": 6,
-            "status": false,
+            "status": true,
             "value_info": [
               {
                 "value_name": "voltage",
-                "value": null,
+                "value": 0.0,
                 "unit": "V"
               },
               {
                 "value_name": "power",
-                "value": null,
+                "value": 0.0,
                 "unit": "kW"
               },
               {
                 "value_name": "current",
-                "value": null,
+                "value": 0.0,
                 "unit": "A"
               },
               {
                 "value_name": "pf",
-                "value": null,
+                "value": 0.1,
                 "unit": "-"
               },
               {
                 "value_name": "level",
-                "value": null,
+                "value": 0.0,
                 "unit": "%"
               }
             ]
@@ -46,21 +46,21 @@
             "device_name": "PCA-RK33002B-P01",
             "group_name": "Environment",
             "device_id": 5,
-            "status": false,
+            "status": true,
             "value_info": [
               {
                 "value_name": "pm1",
-                "value": null,
+                "value": 9.0,
                 "unit": "ug/m^3"
               },
               {
                 "value_name": "pm25",
-                "value": null,
+                "value": 15.0,
                 "unit": "ug/m^3"
               },
               {
                 "value_name": "pm10",
-                "value": null,
+                "value": 19.0,
                 "unit": "ug/m^3"
               }
             ]
@@ -69,16 +69,16 @@
             "device_name": "PCA-RK33005CD-P01",
             "group_name": "Environment",
             "device_id": 4,
-            "status": false,
+            "status": true,
             "value_info": [
               {
                 "value_name": "temperature",
-                "value": null,
+                "value": 31.1,
                 "unit": "\u00b0C"
               },
               {
                 "value_name": "humidity",
-                "value": null,
+                "value": 54.9,
                 "unit": "%"
               }
             ]
@@ -87,36 +87,36 @@
             "device_name": "PCA-PM-P01",
             "group_name": "Energy",
             "device_id": 1,
-            "status": false,
+            "status": true,
             "value_info": [
               {
                 "value_name": "energy",
-                "value": null,
+                "value": 120259093.083,
                 "unit": "kWh"
               },
               {
                 "value_name": "frequency",
-                "value": null,
+                "value": 50.0,
                 "unit": "Hz"
               },
               {
                 "value_name": "pf",
-                "value": null,
+                "value": 0.85,
                 "unit": "-"
               },
               {
                 "value_name": "power",
-                "value": null,
+                "value": 0.1,
                 "unit": "kW"
               },
               {
                 "value_name": "current",
-                "value": null,
+                "value": 0.56,
                 "unit": "A"
               },
               {
                 "value_name": "voltage",
-                "value": null,
+                "value": 223.17,
                 "unit": "V"
               }
             ]
@@ -127,7 +127,7 @@
   },
   {
     "station_name": "BCS-P02",
-    "timestamp": 1704340724.72775,
+    "timestamp": 1704347356.748797,
     "gateway_info": [
       {
         "gateway_name": "PCA-ELFIN-P03",
@@ -164,7 +164,7 @@
   },
   {
     "station_name": "BCS-P03",
-    "timestamp": 1704340724.72783,
+    "timestamp": 1704347356.748878,
     "gateway_info": [
       {
         "gateway_name": "PCA-ELFIN-P04",
@@ -176,36 +176,36 @@
             "device_name": "PCA-PM-P04",
             "group_name": "Energy",
             "device_id": 42,
-            "status": false,
+            "status": true,
             "value_info": [
               {
                 "value_name": "energy",
-                "value": null,
+                "value": 111669165.278,
                 "unit": "kWh"
               },
               {
                 "value_name": "frequency",
-                "value": null,
+                "value": 50.0,
                 "unit": "Hz"
               },
               {
                 "value_name": "pf",
-                "value": null,
+                "value": 0.8,
                 "unit": "-"
               },
               {
                 "value_name": "power",
-                "value": null,
+                "value": 0.1,
                 "unit": "kW"
               },
               {
                 "value_name": "current",
-                "value": null,
+                "value": 0.55,
                 "unit": "A"
               },
               {
                 "value_name": "voltage",
-                "value": null,
+                "value": 234.51,
                 "unit": "V"
               }
             ]
@@ -239,7 +239,7 @@
   },
   {
     "station_name": "BCS-P10",
-    "timestamp": 1704340724.727901,
+    "timestamp": 1704347356.748958,
     "gateway_info": [
       {
         "gateway_name": "PCA-ELFIN-P02",
@@ -251,36 +251,36 @@
             "device_name": "PCA-PM-P02",
             "group_name": "Energy",
             "device_id": 7,
-            "status": false,
+            "status": true,
             "value_info": [
               {
                 "value_name": "energy",
-                "value": null,
+                "value": 115964158.031,
                 "unit": "kWh"
               },
               {
                 "value_name": "frequency",
-                "value": null,
+                "value": 50.0,
                 "unit": "Hz"
               },
               {
                 "value_name": "pf",
-                "value": null,
+                "value": 0.87,
                 "unit": "-"
               },
               {
                 "value_name": "power",
-                "value": null,
+                "value": 0.09,
                 "unit": "kW"
               },
               {
                 "value_name": "current",
-                "value": null,
+                "value": 0.424,
                 "unit": "A"
               },
               {
                 "value_name": "voltage",
-                "value": null,
+                "value": 236.9,
                 "unit": "V"
               }
             ]
